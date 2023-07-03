@@ -21,7 +21,6 @@ ENV RAW_DATA_FILE=dataset.csv
 
 COPY dataset.csv ./dataset.csv
 COPY Preprocessing.py ./Preprocessing.py
-COPY train.py ./train.py
 COPY Model.py ./Model.py
 
 
