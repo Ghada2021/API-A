@@ -10,7 +10,7 @@ RUN pip install matplotlib --no-cache-dir
 RUN pip install xgboost --no-cache-dir
 RUN pip install seaborn --no-cache-dir
 RUN pip install joblib 
-
+WORKDIR /home/jovyan 
 RUN mkdir model raw_data processed_data results
 
 ENV RAW_DATA_DIR=/home/jovyan/raw_data
