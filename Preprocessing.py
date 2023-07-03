@@ -60,4 +60,4 @@ train_path = os.path.join(PROCESSED_DATA_DIR, 'train.csv')
 
 
 # Save csv
-train.to_csv(train_path, index=False)
+df.to_csv(train_path, index=False)
