@@ -23,5 +23,4 @@ COPY dataset.csv ./dataset.csv
 COPY Preprocessing.py ./Preprocessing.py
 COPY Model.py ./Model.py
 
-RUN python3 Preprocessing.py
-CMD python3 Model.py
+CMD  python3 Preprocessing.py  && python3 Model.py
